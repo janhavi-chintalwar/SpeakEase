@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    width: 420px;
+    color: white;
+    text-align: center;
+}
+
+.tagline {
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mic-btn {
+    background: #ff7675;
+    color: white;
+}
+
+.translate-btn {
+    background: #00cec9;
+    color: white;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 13px;
+    opacity: 0.8;
+}

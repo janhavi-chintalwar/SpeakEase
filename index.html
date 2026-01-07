@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpeakEase | Voice Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🎙️ SpeakEase</h1>
+    <p class="tagline">Voice to Text & Multilingual Translator</p>
+
+    <div class="card">
+        <label>🎤 Speak Language</label>
+        <select id="inputLang">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="mr-IN">Marathi</option>
+        </select>
+
+        <button class="mic-btn" onclick="startListening()">🎙 Start Speaking</button>
+
+        <textarea id="speechText" placeholder="Your speech will appear here..."></textarea>
+
+        <label>🌍 Translate To</label>
+        <select id="outputLang">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="mr">Marathi</option>
+        </select>
+
+        <button class="translate-btn" onclick="translateText()">🌐 Translate</button>
+
+        <textarea id="translatedText" placeholder="Translated text..."></textarea>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
